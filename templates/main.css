@@ -1,0 +1,65 @@
+/* CIT 230 /
+//
+
+/*/
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: 'Times New Roman';
+    color:  rgb(15, 148, 189);
+}
+
+h1 {
+    font-size: x-large;
+    color: style= rgb(28, 28, 29);
+}
+
+h2 {
+    font-size: large;
+    text-align: center;
+    border-bottom: 1px solid rgb(28, 28, 29);
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: auto;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background:
+	repeating-linear-gradient(
+		-45deg,
+		transparent,
+		transparent 25%,
+		rgb(71, 74, 255) 0,
+		rgb(87, 133, 185) 50%
+	),
+	repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 25%,
+		rgb(95, 151, 207) 0,
+		rgb(170, 198, 226) 50%
+	), rgba(179, 230, 245, 0.767);
+
+background-size: 10em 10em;
+background-blend-mode: multiply;
+	
+background-blend-mode: screen; ;
+    color: rgb(15, 148, 189);
+}
+
+header img {
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+footer {
+    font-size: smaller;
+}
+
