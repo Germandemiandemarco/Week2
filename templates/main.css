@@ -8,7 +8,7 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: 'Times New Roman';
-    color:  rgb(15, 148, 189);
+    color:  rgb(5, 39, 46);
 }
 
 h1 {
@@ -35,22 +35,22 @@ header, footer, footer a {
 		-45deg,
 		transparent,
 		transparent 25%,
-		rgb(71, 74, 255) 0,
-		rgb(87, 133, 185) 50%
+		rgb(6, 7, 94) 0,
+		rgb(18, 35, 65) 50%
 	),
 	repeating-linear-gradient(
 		45deg,
 		transparent,
 		transparent 25%,
-		rgb(95, 151, 207) 0,
-		rgb(5, 45, 85) 50%
-	), rgba(102, 128, 136, 0.767);
+		rgb(32, 136, 248) 0,
+		rgb(4, 52, 85) 50%
+	), rgba(211, 232, 238, 0.767);
 
 background-size: 10em 10em;
 background-blend-mode: multiply;
 	
 background-blend-mode: screen; ;
-    color: rgb(15, 148, 189);
+    color: rgb(15, 170, 218);
 }
 
 header img {
