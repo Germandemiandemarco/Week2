@@ -2,7 +2,7 @@
 
 
 
-{ margin: 0; box-sizing: border-box; } 
+* { margin: 0; box-sizing: border-box; } 
 
 body { 
     font-size: 16px; 
@@ -43,8 +43,8 @@ header, footer, footer a {
 		transparent,
 		transparent 25%,
 		rgb(95, 151, 207) 0,
-		rgb(170, 198, 226) 50%
-	), rgba(179, 230, 245, 0.767);
+		rgb(5, 45, 85) 50%
+	), rgba(102, 128, 136, 0.767);
 
 background-size: 10em 10em;
 background-blend-mode: multiply;
